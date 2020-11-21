@@ -1,0 +1,38 @@
+body {
+	background-image: url('https://po84.github.io/img/geometry2.png');
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+}
+
+.actions .paper-btn {
+	margin-left: 10px;
+}
+
+.reply-box,
+.new-post-title-type {
+	display: flex;
+}
+
+.reply-box input {
+	width: 20%;
+}
+
+.reply-box textarea {
+	width: 70%;
+}
+
+.reply-box button {
+	width: 10%;
+	height: 85px;
+}
+
+.comment {
+	margin-top: 50px;
+}
+
+footer {
+	text-align: center;
+}
