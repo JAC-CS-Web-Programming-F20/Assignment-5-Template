@@ -60,7 +60,7 @@ In this assignment, we will implement **session management** to allow users to l
 
 ## 🗺️ Routes
 
-| Request Method | Query String          | Action                            | Redirects/Template      | Description                                          |
+| Request Method | Query String          | Action                            | Redirect/Template       | Description                                          |
 | -------------- | --------------------- | --------------------------------- | ----------------------- | ---------------------------------------------------- |
 | `GET`          | `/`                   | `HomeController::home`            | `HomeView.php`          | Display the homepage.                                |
 | `ANY`          | `/{garbage}`          | `ErrorController::error`          | `ErrorView.php`         | Display a 404 error page.                            |
